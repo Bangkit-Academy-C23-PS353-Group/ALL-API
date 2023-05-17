@@ -1,8 +1,37 @@
 # API
 ## /login
  * URL
+ * Method
+ * Content-Type
+ * Parameters
+ * Response
 ## /register
+* URL
+ * Method
+ * Content-Type
+ * Parameters
+ * Response
 ## /forgot-pass
+* URL
+ * Method
+ * Content-Type
+ * Parameters
+ * Response
 ## /upload
+* URL
+ * Method
+ * Content-Type
+ * Parameters
+ * Response
 ## /history
+* URL
+ * Method
+ * Content-Type
+ * Parameters
+ * Response
 ## /profile
+* URL
+ * Method
+ * Content-Type
+ * Parameters
+ * Response
