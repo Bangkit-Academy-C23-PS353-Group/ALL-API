@@ -5,22 +5,59 @@
  /login
  ```
  * Method
+ ```
+ POST
+ ```
  * Content-Type
+ ```
+ application/json
+ ```
  * Parameters
+ ```
+ email, password
+ ```
  * Response
+ ```
+ ```
 ## Register ##
 * URL
-  /login
+  ```
+  \register
+  ```
  * Method
+ ```
+ POST
+ ```
  * Content-Type
+ ```
+ application/json
+ ```
  * Parameters
+ ```
+ username, email, password
+ ```
  * Response
+ ```
+ ```
 ## Lupa Password ##
-* URL
+ * URL
+ ```
+ \forgot-pass
+ ```
  * Method
+ ```
+ GET
+ ```
  * Content-Type
+ ```
+ ```
  * Parameters
+ ```
+ email
+ ```
  * Response
+ ```
+ ```
 ## Upload ##
 * URL
  * Method
