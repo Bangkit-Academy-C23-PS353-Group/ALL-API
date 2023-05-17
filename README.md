@@ -7,6 +7,7 @@
  * Response
 ## Register ##
 * URL
+  /login
  * Method
  * Content-Type
  * Parameters
