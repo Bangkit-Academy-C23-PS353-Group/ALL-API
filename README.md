@@ -21,9 +21,9 @@
  ```
 ## Register ##
 * URL
-  ```
-  \register
-  ```
+ ```
+ \register
+ ```
  * Method
  ```
  POST
@@ -60,19 +60,79 @@
  ```
 ## Upload ##
 * URL
+ ```
+ \upload
+ ```
  * Method
+ ```
+ POST
+ ```
  * Content-Type
+ ```
+ multipart/form-data
+ ```
  * Parameters
+ ```
+ email
+ ```
  * Response
+ ```
+ ```
 ## History ##
 * URL
+ ```
+ \history
+ ```
  * Method
+ ```
+ GET
+ ```
  * Content-Type
+ ```
+ ```
  * Parameters
+ ```
+ email
+ ```
  * Response
-## Profile ##
+ ```
+ ```
+
+## Get Profile Username and Photo  ##
 * URL
+ ```
+ \forgot-pass
+ ```
  * Method
+ ```
+ GET
+ ```
  * Content-Type
+ ```
+ ```
  * Parameters
+ ```
+ email
+ ```
  * Response
+ ```
+ ```
+ ## Edit Photo Profile  ##
+* URL
+ ```
+ \forgot-pass
+ ```
+ * Method
+ ```
+ PUT
+ ```
+ * Content-Type
+ ```
+ ```
+ * Parameters
+ ```
+ email
+ ```
+ * Response
+ ```
+ ```
