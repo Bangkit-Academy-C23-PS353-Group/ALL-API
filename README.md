@@ -1,6 +1,6 @@
 # API
 ## /login
-# *URL
+ * URL
 ## /register
 ## /forgot-pass
 ## /upload
