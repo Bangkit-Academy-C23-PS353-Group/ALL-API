@@ -1,35 +1,35 @@
 # API
-## /login
+## Login ##
  * URL
  * Method
  * Content-Type
  * Parameters
  * Response
-## /register
+## Register ##
 * URL
  * Method
  * Content-Type
  * Parameters
  * Response
-## /forgot-pass
+## Lupa Password ##
 * URL
  * Method
  * Content-Type
  * Parameters
  * Response
-## /upload
+## Upload ##
 * URL
  * Method
  * Content-Type
  * Parameters
  * Response
-## /history
+## History ##
 * URL
  * Method
  * Content-Type
  * Parameters
  * Response
-## /profile
+## Profile ##
 * URL
  * Method
  * Content-Type
