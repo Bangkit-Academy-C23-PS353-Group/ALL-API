@@ -17,15 +17,17 @@
  email, password
  ```
  * Response
- ```
- #### Status Code: ####
+  * Status Code:
+  ```
    200
- #### Response Body: ####
- {
-  "status": "success",
-  "message": "success login",
- }
- ```
+  ```
+  * Response Body:
+  ```
+  {
+   "status": "success",
+   "message": "success login",
+  }
+  ```
 ## Register ##
 * URL
  ```
