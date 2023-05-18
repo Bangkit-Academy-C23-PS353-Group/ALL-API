@@ -18,16 +18,16 @@
  ```
  * Response
     * Status Code:
-  ```
-   200
-  ```
-  * Response Body:
-  ```
-  {
-   "status": "success",
-   "message": "success login",
-  }
-  ```
+      ```
+       200
+      ```
+    * Response Body:
+      ```
+      {
+       "status": "success",
+       "message": "success login",
+      }
+      ```
 ## Register ##
 * URL
  ```
