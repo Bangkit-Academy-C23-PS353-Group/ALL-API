@@ -53,6 +53,7 @@
     * Response Body:
       ```
       {
+       "email" : email,
        "username": username,
        "message": "Registration Success",
       }
