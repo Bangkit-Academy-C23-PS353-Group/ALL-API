@@ -1,4 +1,4 @@
-# API
+# ALL-API
 ## Login ##
  * URL
  ```
@@ -25,7 +25,7 @@
       ```
       {
        "status": "success",
-       "message": "success login",
+       "message": "Login success",
       }
       ```
 ## Register ##
@@ -92,7 +92,7 @@
  ```
  * Parameters
  ```
- email
+ 
  ```
  * Response
  ```
