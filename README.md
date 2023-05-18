@@ -46,8 +46,17 @@
  username, email, password
  ```
  * Response
- ```
- ```
+ * Status Code:
+      ```
+       200
+      ```
+    * Response Body:
+      ```
+      {
+       "username": username,
+       "message": "Registration Success",
+      }
+      ```
 ## Lupa Password ##
  * URL
  ```
