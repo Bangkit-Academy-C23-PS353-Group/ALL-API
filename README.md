@@ -98,10 +98,10 @@
  ```
  ```
 
-## Get Profile Username and Photo  ##
+## Get Username and Photo Profile  ##
 * URL
  ```
- \forgot-pass
+ \profile
  ```
  * Method
  ```
@@ -120,7 +120,7 @@
  ## Edit Photo Profile  ##
 * URL
  ```
- \forgot-pass
+ \profile
  ```
  * Method
  ```
