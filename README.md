@@ -17,7 +17,7 @@
  email, password
  ```
  * Response
-  * Status Code:
+    * Status Code:
   ```
    200
   ```
