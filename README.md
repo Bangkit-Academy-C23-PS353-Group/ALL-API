@@ -18,9 +18,9 @@
  ```
  * Response
  ```
- * Status Code: 
- 200
- * Response Body:
+ - Status Code: 
+   200
+ - Response Body:
  {
   "status": "success",
   "message": "success login",
