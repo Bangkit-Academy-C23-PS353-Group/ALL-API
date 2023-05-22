@@ -24,7 +24,6 @@
     * Response Body:
       ```
       {
-       "status": "success",
        "message": "Login success",
       }
       ```
@@ -55,7 +54,7 @@
       {
        "email" : email,
        "username": username,
-       "message": "Registration Success",
+       "message": "Registration success",
       }
       ```
 ## Lupa Password ##
@@ -65,18 +64,27 @@
  ```
  * Method
  ```
- GET
+ POST
  ```
  * Content-Type
  ```
+ application/json
  ```
  * Parameters
  ```
  email
  ```
  * Response
- ```
- ```
+    * Status Code:
+      ```
+       200
+      ```
+    * Response Body:
+      ```
+      {
+       "message": "Your password is sent successfully",
+      }
+      ```
 ## Upload ##
 * URL
  ```
