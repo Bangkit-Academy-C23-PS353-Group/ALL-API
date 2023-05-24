@@ -1,14 +1,14 @@
 # SENDGRID
 ## Create an environment variable
-'''
+```
   1. echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
   2. echo "sendgrid.env" >> .gitignore
   3. echo "sendgrid.env" >> .gitignore
-'''
+```
 ## Install the package
-'''
+```
 pip3 install sendgrid
-'''
+```
 
 
 # API
