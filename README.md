@@ -108,6 +108,10 @@ pip3 install sendgrid
  ```
  POST
  ```
+ * Headers
+ ```
+ 'Authorization': Bearer Token
+ ```
  * Content-Type
  ```
  multipart/form-data
@@ -128,12 +132,17 @@ pip3 install sendgrid
  ```
  GET
  ```
+ * Headers
+ ```
+ 'Authorization': Bearer Token
+ ```
  * Content-Type
  ```
+ -
  ```
  * Parameters
  ```
- email
+ -
  ```
  * Response
  ```
@@ -180,6 +189,10 @@ pip3 install sendgrid
  * Method
  ```
  PUT
+ ```
+ * Headers
+ ```
+ 'Authorization': Bearer Token
  ```
  * Content-Type
  ```
