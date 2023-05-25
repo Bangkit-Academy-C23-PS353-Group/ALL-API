@@ -118,11 +118,19 @@ pip3 install sendgrid
  ```
  * Parameters
  ```
- 
+  file=[file], patientname
  ```
  * Response
- ```
- ```
+    * Status Code:
+      ```
+       200
+      ```
+    * Response Body:
+      ```
+      {
+       "result": result
+      }
+      ```
 ## History ##
 * URL
  ```
@@ -145,8 +153,18 @@ pip3 install sendgrid
  -
  ```
  * Response
- ```
- ```
+    * Status Code:
+      ```
+       200
+      ```
+    * Response Body:
+      ```
+      {
+       "patient_name": patientName,
+       "result": result,
+       "date": createdAt,
+      }
+      ```
 
 ## Get Username and Photo Profile  ##
 * URL
