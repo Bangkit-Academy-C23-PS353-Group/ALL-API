@@ -1,0 +1,11 @@
+flask_restful
+flask
+flask_cors
+gcsfs
+h5py
+numpy
+tensorflow
+opencv-python
+google-cloud-storage
+keras.models
+gunicorn
