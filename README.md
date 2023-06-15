@@ -23,7 +23,7 @@ pip3 install sendgrid
  ```
  * Content-Type
  ```
- application/json
+ multipart/form-data
  ```
  * Parameters
  ```
@@ -52,7 +52,7 @@ pip3 install sendgrid
  ```
  * Content-Type
  ```
- application/json
+ multipart/form-data
  ```
  * Parameters
  ```
@@ -82,7 +82,7 @@ pip3 install sendgrid
  ```
  * Content-Type
  ```
- application/json
+ multipart/form-data
  ```
  * Parameters
  ```
@@ -118,7 +118,7 @@ pip3 install sendgrid
  ```
  * Parameters
  ```
-  file=[file], patientname
+  file=[file], patient
  ```
  * Response
     * Status Code:
