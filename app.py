@@ -120,9 +120,9 @@ def process_image(uploaded_file):
 
 class Register(Resource):
     def post(self):
-        username = request.json.get('username')
-        password = request.json.get('password')
-        email = request.json.get('email')
+        username = request.form.get('username')
+        password = request.form.get('password')
+        email = request.form.get('email')
         emailIn = Users.query.filter_by(email=email).count()
         usernameIn = Users.query.filter_by(username=username).count()
 
@@ -157,8 +157,8 @@ class Register(Resource):
         
 class Login(Resource):
     def post(self):
-        email = request.json.get('email')
-        password = request.json.get('password')
+        email = request.form.get('email')
+        password = request.form.get('password')
         
         userMail = [user.email for user in Users.query.all()]
         userPass = [user.password for user in Users.query.all()] # get all password
@@ -185,7 +185,7 @@ class Login(Resource):
 
 class ForgotPass(Resource):
     def post(self):
-        email = request.json.get('email')
+        email = request.form.get('email')
         emailIn = Users.query.filter_by(email=email).count()
         userMail = [user.email for user in Users.query.all()] # get all email  in database
         userPass = [user.password for user in Users.query.all()] #get all pass in database
