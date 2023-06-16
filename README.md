@@ -218,7 +218,7 @@ pip3 install sendgrid
  ```
  * Parameters
  ```
- file = [file]
+ file = [file].png
  ```
  * Response
     * Status Code:
