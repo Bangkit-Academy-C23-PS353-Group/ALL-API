@@ -28,7 +28,7 @@ CORS(app)
 
 #dbUrl = 'mysql+pymysql://root:''@localhost/second-test'
 #dburl = 'mysql+pymysql://<username>:<password>@localhost/<database name>'
-dbUrl = 'mysql+pymysql://root:root123@34.72.3.0/User?unix_socket/cloudsql/cs23-ps353-group:us-central1:c23-ps353-instance'
+dbUrl = 'mysql+pymysql://root:root123@34.72.3.0/ALL?unix_socket/cloudsql/cs23-ps353-group:us-central1:c23-ps353-instance'
 #dburl = 'mysql+pymysql://<username>:<password>@<public ip>/<database name>?unix_socket/cloudsql/<connection name>'
 app.config['JWT_TOKEN_LOCATION'] = ['headers']
 app.config['JWT_SECRET_KEY']= "secret1"
