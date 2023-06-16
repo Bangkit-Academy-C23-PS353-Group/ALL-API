@@ -1,4 +1,16 @@
-# SENDGRID
+# Run local environment
+```
+bash shell:
+  1. virtualenv env
+  2. source env/bin/activate
+  3. pip3 install -r requirements.txt
+  4. python3 app.py
+```
+# Deploy to Google App Engine
+```
+gcloud app deploy
+```
+# SendGrid
 ## Create an environment variable
 ```
   1. echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
